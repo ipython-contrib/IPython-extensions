@@ -59,7 +59,6 @@ extensions = [
     'IPython.sphinxext.ipython_console_highlighting',
     'IPython.sphinxext.ipython_directive',
     'numpydoc',  # to preprocess docstrings
-    'github',  # for easy GitHub links
     'magics',
 ]
 

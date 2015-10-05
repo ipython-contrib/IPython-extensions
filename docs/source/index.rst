@@ -18,7 +18,7 @@ Contents
 
    install
    magics
-   whatsnew/index
+   whatsnew
 
 .. seealso::
 
