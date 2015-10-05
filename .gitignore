@@ -53,6 +53,7 @@ coverage.xml
 
 # Sphinx documentation
 docs/_build/
+docs/source/magics-generated.txt
 
 # PyBuilder
 target/
