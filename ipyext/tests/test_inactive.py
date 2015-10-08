@@ -29,7 +29,7 @@ def test_time():
     ip = get_ipython() 
     
     with tt.AssertPrints("'inactive' magic loaded"):
-        ip.run_cell("%load_ext ipyext.inactive")
+        ip.run_cell("%reload_ext ipyext.inactive")
     
     with tt.AssertPrints("Cell inactive: not executed!"):
         with tt.AssertNotPrints("code not run", suppress=False):
