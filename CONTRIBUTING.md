@@ -3,16 +3,17 @@
 A contributed magic should be IPython centric, meaning that the 
 extension should need python parts and not only display some 
 javascript/html. Such notebook centric extensions are better contributed 
-in the jupyter-notebook-extensions repo.
+in the [jupyter-notebook-extensions repo](https://github.com/ipython-contrib/IPython-notebook-extensions).
 
 A contributed magic should also have:
 
 * A numpydoc docstring, which describes all options and gives an example. For 
   examples, see the current magics or the ones 
   [in IPython](https://github.com/ipython/ipython/blob/master/IPython/core/magics/basic.py)). 
-  The docs are build by changing into the docs subdir and running `make html`.
+  The docs are build by changing into the docs subdir and running `make html`. 
+  You need to install `numpydoc` and `sphinx` to build the docs.
 * Tests (see ipyext.tests for examples). Running the testsuite can be done by 
-  changing to the checked out dir and run `iptest ipyext`.
+  changing to the checked out dir and run `python test.py`.
 
 
 ## Opening an Issue

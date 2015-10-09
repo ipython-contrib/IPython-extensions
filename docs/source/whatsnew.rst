@@ -12,4 +12,5 @@ Release 0.1.0
 =============
 
 * Initial release of this package
-* Add `%inactive` to render a cell (temporary) inactive
+* Add `%%inactive` to render a cell (temporary) inactive
+* Add `%%writeandexecute` to write the a cell to a file and execute it (-> Code reuse)

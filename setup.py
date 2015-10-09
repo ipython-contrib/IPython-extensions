@@ -27,12 +27,11 @@ setup(
     name='IPython-extensions',
     version=__version__,
     license='BSD',
-    description='Extensions for IPython',
+    description='IPython-extensions: more magic(s) for IPython',
     long_description=long_description,
     author='IPython-extensions Development Team',
     author_email='jupyter@googlegroups.org',
     url='https://github.com/ipython-contrib/IPython-extensions',
     packages = find_packages(exclude=['*test*']),
-    install_requires=['ipython'],
-    setup_requires=["numpydoc", "sphinx"]
+    install_requires=['ipython']
 )
