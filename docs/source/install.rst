@@ -22,7 +22,7 @@ the quickest way to get up and running with IPython is:
 
 .. code-block:: bash
 
-    $ pip install ipython-extensions
+    $ pip install ipyext
 
 
 Installing the development version

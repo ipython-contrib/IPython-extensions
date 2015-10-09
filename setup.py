@@ -24,7 +24,7 @@ execfile(pjoin(repo_root, 'ipyext','_version.py'), globals())
         
         
 setup(
-    name='IPython-extensions',
+    name='ipyext',
     version=__version__,
     license='BSD',
     description='IPython-extensions: more magic(s) for IPython',
