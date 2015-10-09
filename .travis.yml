@@ -8,6 +8,7 @@ python:
 sudo: false
 install:
     - travis_retry pip install ipython nose coveralls
+    - python setup.py develop
 script:
     - cd /tmp && iptest ipyext --coverage xml && cd -
 after_success:
