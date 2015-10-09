@@ -12,7 +12,7 @@ Currently the following magic commands are included:
 **Installing via pip:**
 
 ```bash
-pip install IPython-extensions
+pip install ipyext
 ```
 
 **Installing from git:**
@@ -39,6 +39,6 @@ To prevent bit rot, it should follow the guidelines outlined in [CONTRIBUTING.md
 
 * it should be IPython centric (notebook centric extensions belong to the [jupyter notebook extension repo](https://github.com/ipython-contrib/IPython-notebook-extensions))
 * it should have proper documentation (preferable in [numpydoc style](https://github.com/numpy/numpy/blob/master/doc/HOWTO_DOCUMENT.rst.txt))
-* it should have a few tests of the functionality (see examples in this repository or in [IPython](https://github.com/ipython/ipython/blob/master/IPython/core/tests/test_magic.py)
+* it should have a few tests of the functionality (see examples in this repository or in [IPython](https://github.com/ipython/ipython/blob/master/IPython/core/tests/test_magic.py))
 
 [![Build Status](https://travis-ci.org/ipython-contrib/IPython-extensions.svg?branch=master)](https://travis-ci.org/ipython-contrib/IPython-extensions)
