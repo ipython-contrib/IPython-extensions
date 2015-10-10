@@ -7,11 +7,7 @@ python:
     - 2.7
 sudo: false
 install:
-    - travis_retry pip install ipython nose coveralls
+    - travis_retry pip install ipython nose requests
     - python setup.py develop
 script:
-    - cd /tmp && iptest ipyext --coverage xml && cd -
-after_success:
-    - cp /tmp/ipy_coverage.xml ./
-    - cp /tmp/.coverage ./
-    - coveralls
+    - python test.py
