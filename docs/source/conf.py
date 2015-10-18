@@ -26,14 +26,13 @@ if ON_RTD:
     tags.add('rtd')
 
     # RTD doesn't use the Makefile, so re-run autogen_{things}.py here.
-    for name in ('magics'):
-        fname = 'autogen_{}.py'.format(name)
-        fpath = os.path.abspath(os.path.join('..', fname))
-        with open(fpath) as f:
-            exec(compile(f.read(), fname, 'exec'), {
-                '__file__': fpath,
-                '__name__': '__main__',
-            })
+    fname = 'autogen_magics.py'
+    fpath = os.path.abspath(os.path.join('..', fname))
+    with open(fpath) as f:
+        exec(compile(f.read(), fname, 'exec'), {
+            '__file__': fpath,
+            '__name__': '__main__',
+        })
 
 # If your extensions are in another directory, add it here. If the directory
 # is relative to the documentation root, use os.path.abspath to make it
