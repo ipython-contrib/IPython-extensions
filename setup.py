@@ -15,8 +15,11 @@ try:
     # make this optional, but it's better for PyPI uploads
     import pypandoc
     long_description = pypandoc.convert('README.md', 'rst')
+    long_description = long_description.replace("\r","")
 except:
-    with open('README.md', 'r') as f:
+    print("!!! DON'T UPLOAD TO PyPI, DESCRIPTION IS WRONG FORMAT")
+    import io
+    with io.open('README.md', encoding="utf-8") as f:
         long_description = f.read()
 
 # _version.py contains __version__.
