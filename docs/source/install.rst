@@ -18,11 +18,17 @@ Quickstart
 ----------
 
 If you have :mod:`pip`,
-the quickest way to get up and running with IPython is:
+the quickest way to get up and running with IPython-extensions is:
 
 .. code-block:: bash
 
     $ pip install ipyext
+    
+If you use `conda`, you can also install with
+
+.. code-block:: bash
+
+    $ conda install -c https://conda.anaconda.org/janschulz ipyext
 
 
 Installing the development version
